@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.nav-bar{
+    background-color: black;
+}
+.nav-img{
+    width:30%;
+    float: left;
+    
+}
+.nav-img img {
+    height:55px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.nav-text{
+  /*  background-color: aquamarine;*/
+    width:40%;
+  float: right;
+  height:80px;
+
+}
+.clear-fix{     
+clear:both;
+}
+.nav-bar .nav-text ul li{
+/*background-color: blue;*/
+list-style: none;
+float: left;         /*to make lis aline*/
+padding: 20px 40px;
+font-size:20px;
+}
+.nav-bar .nav-text ul li a1{
+    text-decoration: none;
+    color:tomato;
+    }
+    .nav-bar .nav-text ul li a2{
+        text-decoration: none;
+        color:blue;
+        }
+        .nav-bar .nav-text ul li a3{
+            text-decoration: none;
+            color:aliceblue;
+            }
+            .nav-bar .nav-text ul li a4{
+                text-decoration: none;
+                color:green;
+                }
+.home{
+    background-image: url(img/sailboat.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+    overflow: auto;
+}
+.home .home-text{
+    text-align: center;
+    margin-top: 180px;
+    
+}
+.home .home-text h1{
+    font-size:100px;
+    font-weight: bold;
+}
+.home .home-text h2{
+    font-size:40px;
+    font-weight: lighter;
+}
+.home .home-text button{
+    padding:20px 30px;
+    border:3px solid black;
+    border-radius: 40px;
+    font-weight:bolder;
+    font-size: 20px;
+}
+.ourteam-heading{
+    text-align: center;
+    color:green;
+    font-size: 25px;
+}
+.item1, .item2 , .item3 , .item4{
+  /*  background-color: aqua;*/
+    width: 25%;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    color:white;
+}
+.item1 img{
+    border: 3px  solid black;
+    border-radius: 60px;
+    outline: 6px  solid  orange;
+}
+.item2 img{
+    border: 3px  solid black;
+    border-radius: 60px;
+    outline: 6px  solid  blue;
+}
+.item3 img{
+    border: 3px  solid black;
+    border-radius: 60px;
+    outline: 6px  solid  white;
+}
+.item4 img{
+    border: 3px  solid black;
+    border-radius: 60px;
+    outline: 6px  solid  green;
+}
+.ourteam-body{
+    width:70%;
+    margin:auto;
+}
+.item1 p{
+    font-size: 15px;
+    font-weight: bold;
+    color:orange;
+}
+.item2 p{
+    font-size: 15px;
+    font-weight: bold;
+    color:blue;
+}
+.item3 p{
+    font-size: 15px;
+    font-weight: bold;
+    color:white;
+}
+.item4 p{
+    font-size: 15px;
+    font-weight: bold;
+    color:green;
+}
+.people-heading{
+    text-align: center;
+    color:orange;
+    margin: 70px 0;
+}
+.people-item{
+    width:33.3333%;
+  float:left;
+    text-align:center;
+    margin:15px 0;
+}
+.color1{
+border-left:green 25px solid;
+}
+
+.color2{
+    border-left:blue 25px solid;
+}
+.color3{
+        border-left:orange 25px solid;
+        }
